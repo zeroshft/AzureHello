@@ -8,6 +8,16 @@
         "virtualMachineName": {
             "type": "string"
         },
+      "sku": {
+        "type": "string",
+        "allowedValues": [
+          "Free",
+          "Shared",
+          "Basic",
+          "Standard"
+          ],
+          "defaultValue": "Free"
+        },
         "virtualMachineSize": {
             "type": "string"
         },
