@@ -8,15 +8,16 @@
         "virtualMachineName": {
             "type": "string"
         },
+      "siteLocation": {
+         "type": "string"
+       },
       "sku": {
         "type": "string",
         "allowedValues": [
-          "Free",
-          "Shared",
-          "Basic",
-          "Standard"
+          "BYOL",
+          "Pre-Auth"
           ],
-          "defaultValue": "Free"
+          "defaultValue": "BYOL"
         },
         "virtualMachineSize": {
             "type": "string"
